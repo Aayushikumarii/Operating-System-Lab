@@ -1,0 +1,43 @@
+Q1
+Executing child process...
+Executing parent process.. 
+Waiting for child process to complete
+Child Status has returned: 0
+Now, Exiting parent process...
+
+Q2
+Executing child process of main program.
+Executing child process...
+Executing parent process.. 
+Waiting for child process to complete
+Child Status has returned: 0
+Now, Exiting parent process...
+Executing parent process of main program.
+Child Status has returned: 0
+Now, Exiting parent process of main program...
+
+Q3
+Executing child process...
+Process ID: 6373
+Parent Process ID: 6372
+Child Process ID: 0
+Now, Exiting child process...
+Executing parent process...
+Child Status has returned: 0
+Process ID: 6372
+Parent Process ID: 3597
+Child Process ID: 6373
+Now, Exiting parent process...
+
+Q4
+Executing child process...
+Parent Process ID: 8917
+Child Process ID: 8916
+Executing parent process...
+    PID TTY          TIME CMD
+   3597 pts/0    00:00:00 bash
+   8916 pts/0    00:00:00 q4
+   8917 pts/0    00:00:00 q4 <defunct>
+   8918 pts/0    00:00:00 sh
+   8919 pts/0    00:00:00 ps
+
